@@ -1,0 +1,43 @@
+body *{
+  padding: 0;
+  margin: 0;
+}
+
+.form{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  z-index: 999;
+}
+
+button{
+  width: 33%;
+  text-transform: capitalize;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+
+  border: none;
+
+}
+
+button:focus{
+  background-color: black;
+  color: white
+}
+
+ul{
+  list-style-type: none;
+  position: relative;
+  top: 55px;
+}
+
+li{
+  padding: 10px;
+  background-color: aquamarine;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  border-right: 1px solid #000;
+}
